@@ -72,7 +72,7 @@ main{
     padding: 10px 12px;
     border-radius: 24px;
     font-family: var(--font-family-alexandria);
-    display: inline; block-size: ;
+    display: inline;
 
 }
 
@@ -135,14 +135,30 @@ h1{
     gap: 50px;
 
 }
+.section-breakdown{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    padding: 60px 0;
+}
+
 
 .content-breakdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 
 }
 
 .content-breakdown span{
     color: var(--color-green);
-
+    border: 1px solid var(--color-gray3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
 
 }
 
@@ -198,4 +214,71 @@ h1{
 
 }
 
+.section-statistics{
+    background-color: var(--color-gray4);
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
 
+
+
+.content-statistics{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.content-statistics span{
+    color: var(--color-green);
+    border: 1px solid var(--color-gray3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    
+}
+
+.content-statistics h2{
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title2);
+    font-weight: 400;
+}
+.content-statistics p{
+    color: var(--color-gray1);
+    font-size: var(--font-size-button);
+    font-family: var(--font-family-alexandria);
+    width: 664px;
+    text-align: center;
+    line-height: 140%;
+
+}
+.container-number-statistics{
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+
+}
+.number-statistics{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.number-statistics h3{
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title2);
+    color: var(--color-green);
+    font-weight: 400;
+}
+
+.number-statistics p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+}
