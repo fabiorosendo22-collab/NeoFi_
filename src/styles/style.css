@@ -282,3 +282,97 @@ h1{
     color: var(--color-gray1);
     font-family: var(--font-family-inter);
 }
+.section-blockchain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+.content-blockchain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+.content-blockchain span{
+    border: 1px solid var(--color-gray1);
+    padding: 12px 20px;
+    border-radius: 24px;
+    color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    
+
+}
+.content-blockchain h2{
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title2);
+    color: var(--color-white);
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.content-blockchain p{
+    color: var(--color-gray1);
+    font-size: var(--font-size-button);
+    font-family: var(--font-family-inter);
+    width: 644px;
+    text-align: center;
+    line-height: 140%;/* altura da linha*/
+
+}
+.container-blockchain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+.container-cards-blockchain{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.card-blockchain{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--color-gray4);
+    border: 1px solid var(--color-gray2);
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.card-blockchain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 8px;
+}
+.card-blockchain div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-blockchain h3{
+    color: var(--color-white);
+
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400;
+
+}
+.card-blockchain p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    width: 500px;
+    
+
+}
+
+
